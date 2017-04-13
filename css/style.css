@@ -3,6 +3,45 @@ html, body {
   overflow: hidden;
 }
 
+/* Style the links inside the navigation bar */
+.nav a {
+     color: rgba(153,153,153,1);
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+  color: rgba(17,17,17,1);
+  text-decoration: none;
+}
+
+/* Add a color to the active/current link */
+.nav a:focus {
+  color: rgba(17,17,17,1)
+}
+
+/* remove background color*/
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: transparent;
+}
+
+/* Style the links inside the navigation bar */
+#coverenter a {
+     color: rgba(255,255,255,1);
+}
+
+/* Change the color of links on hover */
+#coverenter a:hover {
+  color: rgba(17,17,17,1);
+  text-decoration: none;
+}
+
+/* Add a color to the active/current link */
+#coverenter a:focus {
+  color: rgba(17,17,17,1)
+}
+
+
+
 #coverimage {
   background-image: url('../img/ChitinaRiver_Alaska_aerial CoverPageSize.jpg');
 	background-position: center center;
@@ -49,4 +88,15 @@ html, body {
   text-transform: uppercase;
   line-height: 1em;
   color: rgba(255,255,255,1);
+}
+
+#deBoot {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1.6em;
 }
