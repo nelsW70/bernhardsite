@@ -13,6 +13,10 @@ html, body {
   z-index: -1;
 }
 
+#mainsitebackground {
+  background-color: rgba(252,252,252,1);
+}
+
 .overlay {
  position: absolute;
  top: 0;
