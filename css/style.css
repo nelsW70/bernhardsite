@@ -3,7 +3,7 @@ html, body {
   overflow: hidden;
 }
 
-body {
+#coverimage {
   background-image: url('../img/ChitinaRiver_Alaska_aerial CoverPageSize.jpg');
 	background-position: center center;
 	background-repeat:  no-repeat;
