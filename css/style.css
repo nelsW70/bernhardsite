@@ -161,5 +161,18 @@ img:hover {
 }
 
 #gallerypage {
-  margin-bottom: 100px;
+  margin-bottom: 7.5%;
+  margin-top: 5%;
+}
+
+#bioandpic {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 7.5%;
+}
+
+#biorow {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
 }
