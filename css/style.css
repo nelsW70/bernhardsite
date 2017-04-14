@@ -136,6 +136,7 @@ html, body {
 #myTopnav {
   margin-top: 5%;
   margin-left: auto;
+  margin-bottom: 3%;
 }
 
 h5 {
@@ -153,4 +154,12 @@ h5 {
 
 .thumbnail {
   border: 0 none;
+}
+
+img:hover {
+  opacity: .80;
+}
+
+#gallerypage {
+  margin-bottom: 100px;
 }
