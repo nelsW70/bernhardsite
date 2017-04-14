@@ -64,6 +64,14 @@ html, body {
     background-color: transparent;
 }
 
+.icon-bar {
+  background-color: black;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
 #coverimage {
   background-image: url('../img/ChitinaRiver_Alaska_aerial CoverPageSize.jpg');
 	background-position: center center;
@@ -172,8 +180,8 @@ img:hover {
 }
 
 #biorow {
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-top: 5%;
 }
 
@@ -202,4 +210,31 @@ img:hover {
   text-decoration: none;
   text-transform: none;
   line-height: .5em;
+}
+
+#bookmaintext {
+  text-align: center;
+}
+
+#bookheader {
+  color: rgba(34,34,34,1);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.6em;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1.2em;
+}
+
+#bookbody {
+  color: rgba(87,87,87,1);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: none;
+  line-height: 1.8em;
 }
