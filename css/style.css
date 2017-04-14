@@ -4,23 +4,23 @@ html, body {
 }
 
 /* Style the links inside the navigation bar */
-.nav a {
+#deBoot a {
      color: rgba(153,153,153,1);
 }
 
 /* Change the color of links on hover */
-.nav a:hover {
+#deBoot a:hover {
   color: rgba(17,17,17,1);
   text-decoration: none;
 }
 
 /* Add a color to the active/current link */
-.nav a:focus {
+#deBoot a:focus {
   color: rgba(17,17,17,1)
 }
 
 /* remove background color*/
-.nav>li>a:hover, .nav>li>a:focus {
+#deBoot>li>a:hover, #deBoot>li>a:focus {
     background-color: transparent;
 }
 
@@ -40,7 +40,26 @@ html, body {
   color: rgba(17,17,17,1)
 }
 
+/* Style the links inside the navigation bar */
+#header a {
+     color: #222;
+}
 
+/* Change the color of links on hover */
+#header a:hover {
+  color: #222;
+  text-decoration: none;
+}
+
+/* Add a color to the active/current link */
+#header a:focus {
+  color: #222;
+}
+
+/* remove background color*/
+#header>li>a:hover, #header>li>a:focus {
+    background-color: transparent;
+}
 
 #coverimage {
   background-image: url('../img/ChitinaRiver_Alaska_aerial CoverPageSize.jpg');
@@ -98,5 +117,16 @@ html, body {
   letter-spacing: 1px;
   text-decoration: none;
   text-transform: uppercase;
-  line-height: 1.6em;
+  line-height: 2em;
+}
+
+#header {
+  color: #222;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 25px;
+  letter-spacing: .75px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
