@@ -303,3 +303,35 @@ hr {
   text-transform: none;
   line-height: 1.8em;
 }
+
+.workprevnext {
+  color: rgba(87,87,87,1);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: none;
+  line-height: 1.8em;
+}
+
+/* Style the links inside the navigation bar */
+#workprevnext a {
+     color: rgba(153,153,153,1);
+}
+
+/* Change the color of links on hover */
+#workprevnext a:hover {
+  color: rgba(17,17,17,1);
+  text-decoration: none;
+}
+
+/* Add a color to the active/current link */
+#workprevnext a:focus {
+  color: rgba(17,17,17,1)
+}
+
+/* remove background color*/
+#workprevnext>li>a:hover, #workprevnext>li>a:focus {
+    background-color: transparent;
+}
