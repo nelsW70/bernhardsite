@@ -214,6 +214,7 @@ img:hover {
 
 #bookmaintext {
   text-align: center;
+  margin-bottom: 3.5%;
 }
 
 #bookheader {
@@ -262,4 +263,13 @@ hr {
   text-decoration: none;
   text-transform: none;
   line-height: 1.8em;
+}
+
+#bookcontainer {
+  margin-top: 7.5%;
+}
+
+#allbook {
+  margin-left: 5%;
+  margin-right: 5%;
 }
