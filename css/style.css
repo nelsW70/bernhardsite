@@ -170,7 +170,7 @@ img:hover {
 
 #gallerypage {
   margin-bottom: 7.5%;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 #bioandpic {
@@ -277,15 +277,24 @@ hr {
 
 
 #largepicpages{
-
+  margin-bottom: 4%;
 }
 
-#largepictitle {
-
+.largepictitle {
+  margin-top: 2%;
+  color: rgba(34,34,34,1);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.6em;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1.2em;
 }
 
 .largepictext {
-  color: rgba(87,87,87,1);
+  color: gba(87,87,87,1);
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
