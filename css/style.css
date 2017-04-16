@@ -68,8 +68,14 @@ html, body {
   background-color: black;
 }
 
-.navbar .navbar-collapse {
+#header, #deBoot {
   text-align: center;
+}
+
+@media screen and (min-width: 48em){
+    #header, #deBoot {
+        text-align: left
+    }
 }
 
 #coverimage {
