@@ -168,9 +168,18 @@ img:hover {
   opacity: .80;
 }
 
+#imgnopacity:hover {
+  opacity: 1;
+}
+
 #gallerypage {
   margin-bottom: 7.5%;
-  margin-top: 2%;
+  margin-top: 2.5%;
+}
+
+#indexgallerypage {
+  margin-bottom: 7.5%;
+  margin-top: 5%;
 }
 
 #bioandpic {
@@ -275,9 +284,9 @@ hr {
 }
 
 
-
 #largepicpages{
   margin-bottom: 4%;
+  margin-top: 3.5%;
 }
 
 .largepictitle {
