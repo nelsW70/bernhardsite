@@ -344,3 +344,46 @@ hr {
 #workprevnext>li>a:hover, #workprevnext>li>a:focus {
     background-color: transparent;
 }
+
+
+/* Style the links inside the navigation bar */
+#email a {
+  color: rgba(17,17,17,1);
+}
+
+/* Change the color of links on hover */
+#email a:hover {
+  color: rgba(153,153,153,1);
+  text-decoration: none;
+}
+
+/* Add a color to the active/current link */
+#email a:focus {
+  color: rgba(153,153,153,1);
+}
+
+/* remove background color*/
+#email>li>a:hover, #email>li>a:focus {
+    background-color: transparent;
+}
+
+/* Style the links inside the navigation bar */
+.bookdescriptions a {
+  color: rgba(87,87,87,1);
+}
+
+/* Change the color of links on hover */
+.bookdescriptions a:hover {
+  color: rgba(153,153,153,1);
+  text-decoration: none;
+}
+
+/* Add a color to the active/current link */
+.bookdescriptions a:focus {
+  color: rgba(153,153,153,1);
+}
+
+/* remove background color*/
+.bookdescriptions>li>a:hover, .bookdescriptions>li>a:focus {
+    background-color: transparent;
+}
