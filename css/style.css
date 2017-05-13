@@ -2,8 +2,24 @@ html, body {
   height: 100%;
 }
 
+.wrapper {
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #coverimage {
   overflow: hidden;
+}
+
+#coverimage {
+  background-image: url('../img/ChitinaRiver_Alaska_aerial CoverPageSizewebopt.jpg');
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+  position: relative;
 }
 
 /* Style the links inside the navigation bar */
@@ -76,15 +92,6 @@ html, body {
     #header, #deBoot {
         text-align: left
     }
-}
-
-#coverimage {
-  background-image: url('../img/ChitinaRiver_Alaska_aerial CoverPageSize.jpg');
-	background-position: center center;
-	background-repeat:  no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-  position: relative;
 }
 
 #mainsitebackground {
@@ -291,7 +298,6 @@ hr {
   margin-left: 5%;
   margin-right: 5%;
 }
-
 
 #largepicpages{
   margin-bottom: 4%;
