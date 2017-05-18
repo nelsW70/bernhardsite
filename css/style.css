@@ -362,23 +362,23 @@ hr {
 
 
 /* Style the links inside the navigation bar */
-#email a {
+.email a {
   color: rgba(17,17,17,1);
 }
 
 /* Change the color of links on hover */
-#email a:hover {
+.email a:hover {
   color: rgba(153,153,153,1);
   text-decoration: none;
 }
 
 /* Add a color to the active/current link */
-#email a:focus {
+.email a:focus {
   color: rgba(153,153,153,1);
 }
 
 /* remove background color*/
-#email>li>a:hover, #email>li>a:focus {
+.email>li>a:hover, .email>li>a:focus {
     background-color: transparent;
 }
 
