@@ -402,3 +402,13 @@ hr {
 .bookdescriptions>li>a:hover, .bookdescriptions>li>a:focus {
     background-color: transparent;
 }
+
+@media (min-width: 768px) {
+   .container-fluid>.navbar-collapse,
+   .container-fluid>.navbar-header,
+   .container>.navbar-collapse,
+   .container>.navbar-header {
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+}
