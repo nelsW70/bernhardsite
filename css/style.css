@@ -266,10 +266,6 @@ img:hover {
   line-height: 1.8em;
 }
 
-#allbook {
-  margin-bottom: 5%;
-}
-
 h3 {
   text-align: center;
   font-family: "Roboto", sans-serif;
@@ -300,8 +296,9 @@ hr {
 }
 
 #allbook {
+  margin-bottom: 5%;
   margin-left: 5%;
-  margin-right: 5%;
+  margin-right: 2.5%;
 }
 
 #largepicpages{
