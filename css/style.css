@@ -236,6 +236,11 @@ img:hover {
 #bookmaintext {
   text-align: center;
   margin-bottom: 3.5%;
+  padding-right: 5%;
+}
+
+.bookrow {
+  padding-right: 5%;
 }
 
 #bookheader {
@@ -401,6 +406,12 @@ hr {
 /* remove background color*/
 .bookdescriptions>li>a:hover, .bookdescriptions>li>a:focus {
     background-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .bookblock {
+    width: 100%;
+  }
 }
 
 @media (min-width: 768px) {
