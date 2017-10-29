@@ -405,6 +405,12 @@ hr {
     background-color: transparent;
 }
 
+@media (max-width: 1023px) {
+  #allbook {
+    margin-left: 2.5%;
+  }
+}
+
 @media (max-width: 768px) {
   .bookblock {
     width: 100%;
