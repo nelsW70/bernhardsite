@@ -40,28 +40,31 @@ html, body {
 
 /* remove background color*/
 #deBoot>li>a:hover, #deBoot>li>a:focus {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 /* Style the links inside the navigation bar */
 #coverenter a {
-     color: rgba(255,255,255,1);
+ color: rgba(255,255,255,1);
+ transition:.5s;
 }
 
 /* Change the color of links on hover */
 #coverenter a:hover {
   color: rgba(17,17,17,1);
   text-decoration: none;
+  transition:.5s;
 }
 
 /* Add a color to the active/current link */
 #coverenter a:focus {
   color: rgba(17,17,17,1);
+  transition:.5s;
 }
 
 /* Style the links inside the navigation bar */
 #header a {
-     color: #222;
+   color: #222;
 }
 
 /* Change the color of links on hover */
@@ -172,6 +175,16 @@ h5 {
   text-decoration: none;
   text-transform: uppercase;
   line-height: 1.6em;
+}
+
+/* spacing on splash links */
+
+.splash-links {
+  padding-right: 5%;
+}
+
+.message a {
+  text-decoration: none;
 }
 
 .thumbnail {
