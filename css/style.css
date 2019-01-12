@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -14,57 +15,58 @@ html, body {
 }
 
 #coverimage {
-  background-image: url('../img/ChitinaRiver_Alaska_aerial CoverPageSizewebopt27.jpg');
-	background-position: center center;
-	background-repeat:  no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
+  background-image: url("../img/ChitinaRiver_Alaska_aerial CoverPageSizewebopt27.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   position: relative;
 }
 
 /* Style the links inside the navigation bar */
 #deBoot a {
-     color: rgba(153,153,153,1);
+  color: rgba(153, 153, 153, 1);
 }
 
 /* Change the color of links on hover */
 #deBoot a:hover {
-  color: rgba(17,17,17,1);
+  color: rgba(17, 17, 17, 1);
   text-decoration: none;
 }
 
 /* Add a color to the active/current link */
 #deBoot a:focus {
-  color: rgba(17,17,17,1);
+  color: rgba(17, 17, 17, 1);
 }
 
 /* remove background color*/
-#deBoot>li>a:hover, #deBoot>li>a:focus {
+#deBoot > li > a:hover,
+#deBoot > li > a:focus {
   background-color: transparent;
 }
 
 /* Style the links inside the navigation bar */
 #coverenter a {
- color: rgba(255,255,255,1);
- transition:.5s;
+  color: rgba(255, 255, 255, 1);
+  transition: 0.5s;
 }
 
 /* Change the color of links on hover */
 #coverenter a:hover {
-  color: rgba(17,17,17,1);
+  color: rgba(17, 17, 17, 1);
   text-decoration: none;
-  transition:.5s;
+  transition: 0.5s;
 }
 
 /* Add a color to the active/current link */
 #coverenter a:focus {
-  color: rgba(17,17,17,1);
-  transition:.5s;
+  color: rgba(17, 17, 17, 1);
+  transition: 0.5s;
 }
 
 /* Style the links inside the navigation bar */
 #header a {
-   color: #222;
+  color: #222;
 }
 
 /* Change the color of links on hover */
@@ -79,34 +81,37 @@ html, body {
 }
 
 /* remove background color*/
-#header>li>a:hover, #header>li>a:focus {
-    background-color: transparent;
+#header > li > a:hover,
+#header > li > a:focus {
+  background-color: transparent;
 }
 
 .icon-bar {
   background-color: black;
 }
 
-#header, #deBoot {
+#header,
+#deBoot {
   text-align: center;
 }
 
-@media screen and (min-width: 48em){
-    #header, #deBoot {
-        text-align: left
-    }
+@media screen and (min-width: 48em) {
+  #header,
+  #deBoot {
+    text-align: left;
+  }
 }
 
 #mainsitebackground {
-  background-color: rgba(252,252,252,1);
+  background-color: rgba(252, 252, 252, 1);
 }
 
 .overlay {
- position: absolute;
- top: 0;
- left: 0;
- width: 100%;
- height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 #coverheader {
@@ -119,9 +124,8 @@ html, body {
   letter-spacing: -0.01em;
   text-transform: none;
   line-height: 1em;
-  color: rgba(255,255,255,1);
+  color: rgba(255, 255, 255, 1);
 }
-
 
 #coverenter {
   text-align: center;
@@ -133,7 +137,7 @@ html, body {
   letter-spacing: -0.02em;
   text-transform: uppercase;
   line-height: 1em;
-  color: rgba(255,255,255,1);
+  color: rgba(255, 255, 255, 1);
 }
 
 #deBoot {
@@ -153,7 +157,7 @@ html, body {
   font-weight: 300;
   font-style: normal;
   font-size: 25px;
-  letter-spacing: .75px;
+  letter-spacing: 0.75px;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -165,7 +169,7 @@ html, body {
 }
 
 h5 {
-  color: rgba(64,64,64,1);
+  color: rgba(64, 64, 64, 1);
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
@@ -192,7 +196,7 @@ h5 {
 }
 
 img:hover {
-  opacity: .80;
+  opacity: 0.8;
 }
 
 #imgnopacity:hover {
@@ -224,7 +228,7 @@ img:hover {
 }
 
 .biotext {
-  color: rgba(87,87,87,1);
+  color: rgba(87, 87, 87, 1);
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -236,14 +240,14 @@ img:hover {
 
 .contact {
   padding-top: 5%;
-  color: rgba(87,87,87,1);
+  color: rgba(87, 87, 87, 1);
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 14px;
   text-decoration: none;
   text-transform: none;
-  line-height: .5em;
+  line-height: 0.5em;
 }
 
 #bookmaintext {
@@ -257,7 +261,7 @@ img:hover {
 }
 
 #bookheader {
-  color: rgba(34,34,34,1);
+  color: rgba(34, 34, 34, 1);
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -269,7 +273,7 @@ img:hover {
 }
 
 #bookbody {
-  color: rgba(87,87,87,1);
+  color: rgba(87, 87, 87, 1);
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -294,7 +298,7 @@ hr {
 }
 
 .bookdescriptions {
-  color: rgba(87,87,87,1);
+  color: rgba(87, 87, 87, 1);
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -314,14 +318,14 @@ hr {
   margin-right: 2.5%;
 }
 
-#largepicpages{
+#largepicpages {
   margin-bottom: 4%;
   margin-top: 3.5%;
 }
 
 .largepictitle {
   margin-top: 5%;
-  color: rgba(34,34,34,1);
+  color: rgba(34, 34, 34, 1);
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -333,7 +337,7 @@ hr {
 }
 
 .largepictext {
-  color: gba(87,87,87,1);
+  color: gba(87, 87, 87, 1);
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -343,8 +347,9 @@ hr {
   line-height: 1.8em;
 }
 
-.workprevnext, #workprevnext {
-  color: rgba(87,87,87,1);
+.workprevnext,
+#workprevnext {
+  color: rgba(87, 87, 87, 1);
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -357,66 +362,72 @@ hr {
 
 /* Style the links inside the navigation bar */
 #workprevnext a {
-     color: rgba(153,153,153,1);
+  color: rgba(153, 153, 153, 1);
 }
 
 /* Change the color of links on hover */
 #workprevnext a:hover {
-  color: rgba(17,17,17,1);
+  color: rgba(17, 17, 17, 1);
   text-decoration: none;
 }
 
 /* Add a color to the active/current link */
 #workprevnext a:focus {
-  color: rgba(17,17,17,1);
+  color: rgba(17, 17, 17, 1);
 }
 
 /* remove background color*/
-#workprevnext>li>a:hover, #workprevnext>li>a:focus {
-    background-color: transparent;
+#workprevnext > li > a:hover,
+#workprevnext > li > a:focus {
+  background-color: transparent;
 }
-
 
 /* Style the links inside the navigation bar */
 .email a {
-  color: rgba(17,17,17,1);
+  color: rgba(17, 17, 17, 1);
 }
 
 /* Change the color of links on hover */
 .email a:hover {
-  color: rgba(153,153,153,1);
+  color: rgba(153, 153, 153, 1);
   text-decoration: none;
 }
 
 /* Add a color to the active/current link */
 .email a:focus {
-  color: rgba(153,153,153,1);
+  color: rgba(153, 153, 153, 1);
 }
 
 /* remove background color*/
-.email>li>a:hover, .email>li>a:focus {
-    background-color: transparent;
+.email > li > a:hover,
+.email > li > a:focus {
+  background-color: transparent;
 }
 
 /* Style the links inside the navigation bar */
 .bookdescriptions a {
-  color: rgba(87,87,87,1);
+  color: rgba(87, 87, 87, 1);
 }
 
 /* Change the color of links on hover */
 .bookdescriptions a:hover {
-  color: rgba(153,153,153,1);
+  color: rgba(153, 153, 153, 1);
   text-decoration: none;
 }
 
 /* Add a color to the active/current link */
 .bookdescriptions a:focus {
-  color: rgba(153,153,153,1);
+  color: rgba(153, 153, 153, 1);
 }
 
 /* remove background color*/
-.bookdescriptions>li>a:hover, .bookdescriptions>li>a:focus {
-    background-color: transparent;
+.bookdescriptions > li > a:hover,
+.bookdescriptions > li > a:focus {
+  background-color: transparent;
+}
+
+.tagline {
+  display: none;
 }
 
 @media (max-width: 1023px) {
@@ -432,10 +443,10 @@ hr {
 }
 
 @media (min-width: 768px) {
-   .container-fluid>.navbar-collapse,
-   .container-fluid>.navbar-header,
-   .container>.navbar-collapse,
-   .container>.navbar-header {
+  .container-fluid > .navbar-collapse,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container > .navbar-header {
     margin-right: -10px;
     margin-left: -10px;
   }
@@ -443,9 +454,9 @@ hr {
 
 @media (max-width: 768px) {
   #bookmaintext {
-      text-align: center;
-      margin-bottom: 3.5%;
-      padding: 0 2.5%;
+    text-align: center;
+    margin-bottom: 3.5%;
+    padding: 0 2.5%;
   }
   .bookblock .thumbnail {
     padding-left: 5%;
